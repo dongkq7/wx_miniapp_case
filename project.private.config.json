@@ -8,6 +8,20 @@
     "miniprogram": {
       "list": [
         {
+          "name": "movable案例",
+          "pathName": "pages/movable/movable",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "轮播图案例",
           "pathName": "pages/swiper/swiper",
           "query": "",

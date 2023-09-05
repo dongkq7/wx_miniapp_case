@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/movable/movable"
   ],
   "window": {
     "backgroundTextStyle": "light",

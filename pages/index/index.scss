@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  .item {
+    height: 100rpx;
+    padding: 0 32rpx;
+    font-size: 42rpx;
+    line-height: 100rpx;
+    color: #051827;
+  }
+  .item + .item {
+    border-top: 2rpx solid #ccc;
+  }
+}

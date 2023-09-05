@@ -1,0 +1,38 @@
+<movable-area
+  class="movable-area" 
+  wx:for="{{list}}"
+  wx:key="index"
+>
+  <movable-view
+    class="movable-view"
+    direction="horizontal"
+    friction="150"
+    out-of-bounds
+    x="{{item.x}}"
+    data-index="{{index}}"
+    bind:touchstart="handleTouchStart"
+    bind:touchend="handleTouchEnd"
+  >
+    <image src="{{item.avatar}}" />
+    <view class="content">
+      <view class="top">
+        {{item.nickname}}
+      </view>
+      <view class="bottom">
+        {{item.msg}}
+      </view>
+    </view>
+    <view class="time">
+      <view class="top">
+        {{item.time}}
+      </view>
+      <view class="bottom">
+        ...
+      </view>
+    </view>
+  </movable-view>
+  <view class="delete">
+    删除
+  </view>
+</movable-area>
+<view class="tip">向左滑动删除消息</view>

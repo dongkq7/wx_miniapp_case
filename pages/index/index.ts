@@ -7,5 +7,10 @@ Page({
     wx.navigateTo({
       url: '/pages/swiper/swiper'
     })
+  },
+  toMovable() {
+    wx.navigateTo({
+      url: '/pages/movable/movable'
+    })
   }
 })
