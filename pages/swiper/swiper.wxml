@@ -1,0 +1,14 @@
+<swiper
+  class="swiper-container"
+  indicator-dots
+  indicator-color="#76819E"
+  indicator-active-color="#ffffff"
+  autoplay
+  circular
+  interval="3000"
+  bindchange="handleSwiperChange"
+>
+  <swiper-item class="swiper-item" wx:for="{{images}}" wx:key="*this">
+    <image class="{{index === currentIndex ? 'active' : ''}}" src="{{item}}" mode="aspectFill"/>
+  </swiper-item>
+</swiper>
